@@ -60,12 +60,8 @@ repositories {
 
 dependencies {
 
-    compile 'javax.ws.rs:jsr311-api:+'
-    compile 'javax.servlet:servlet-api:+'
-    compile 'com.sun.jersey:jersey-server:+'
-    compile 'com.sun.jersey:jersey-core:+'
-    compile 'com.sun.jersey:jersey-servlet:+'
-    
+    compile 'com.neovisionaries:nv-websocket-client:+'
+
     compile 'com.toolbox:interface-utils:+'
 
     testCompile 'junit:junit:+'
